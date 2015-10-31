@@ -14,8 +14,8 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
-  gem.name = "templateable"
-  gem.homepage = "http://github.com/mserran2/templateable"
+  gem.name = "Templateable"
+  gem.homepage = "http://github.com/publicstuff/templateable"
   gem.license = "MIT"
   gem.summary = %Q{TODO: one-line summary of your gem}
   gem.description = %Q{TODO: longer description of your gem}

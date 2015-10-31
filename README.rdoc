@@ -1,6 +1,11 @@
 = templateable
 
-Description goes here.
+This gem allows for easy extension of existing object by adding configurable object_fields to your models
+
+== Getting Started
+* Add gem 'templateable', :git => 'https://github.com/PublicStuff/templateable.git' to your gemfile and run bundle install
+* Run rails g templateable:install to create the DB migrations you'll need to use the gem
+* Add 'include Templatable' to your models and 'include TemplateableController' to your controllers and you're all set
 
 == Contributing to templateable
  

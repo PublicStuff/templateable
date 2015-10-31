@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "Templateable"
   gem.homepage = "http://github.com/publicstuff/templateable"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Allows templating by adding object fields}
+  gem.description = %Q{This gem enables adding fields to models via object fields}
   gem.email = "mark@publicstuff.com"
   gem.authors = ["Mark Serrano"]
   # dependencies defined in Gemfile

@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.authors = ["Mark Serrano"]
   s.date = "2015-11-02"
-  s.description = "TODO: longer description of your gem"
+  s.description = "This gem enables adding fields to models via object fields"
   s.email = "mark@publicstuff.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
+    "Templateable.gemspec",
     "VERSION",
     "lib/templateable.rb",
     "lib/templateable/templateable.rb",
@@ -35,7 +36,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/publicstuff/templateable"
   s.licenses = ["MIT"]
   s.rubygems_version = "2.4.3"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "Allows templating by adding object fields"
 
   if s.respond_to? :specification_version then
     s.specification_version = 4

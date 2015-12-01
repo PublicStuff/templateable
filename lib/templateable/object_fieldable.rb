@@ -1,5 +1,3 @@
-require 'siren'
-
 module ::ObjectFieldable
 
   def self.included(base)

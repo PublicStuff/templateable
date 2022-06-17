@@ -39,6 +39,7 @@ GEM
     addressable (2.3.8)
     arel (6.0.3)
     builder (3.2.2)
+    concurrent-ruby (1.1.10)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
     docile (1.1.5)
@@ -58,7 +59,8 @@ GEM
       activesupport (>= 4.1.0)
     hashie (3.4.3)
     highline (1.7.8)
-    i18n (0.7.0)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     jeweler (2.0.1)
       builder
       bundler (>= 1.0)
